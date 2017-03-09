@@ -1,0 +1,35 @@
+/******************** (C) COPYRIGHT 2013 CEPARK多功能开发学习板********************
+ * 文件名  ：main.c
+ * 描述    ：定时器TIM3产生两路PWM波输出。
+ *           - PA.06: (TIM3_CH1)
+ *           - PA.07: (TIM3_CH2)
+ *           TIM3 Channel1 duty cycle = (TIM3_CCR1/ TIM3_ARR)* 100 = 90%
+ *           TIM3 Channel2 duty cycle = (TIM3_CCR2/ TIM3_ARR)* 100 = 5%
+ *       
+ * 实验平台：CEPARK多功能开发学习板
+ * 库版本  ：ST3.5.0
+**********************************************************************************/
+#include "stm32f10x.h"
+#include "pwm_output.h"
+
+/*
+ * 函数名：main
+ * 描述  ：主函数
+ * 输入  ：无
+ * 输出  ：无
+ */
+int main(void)
+{
+  /* 配置系统时钟为72M */
+	SystemInit();
+ 
+	/* TIM3 PWM波输出初始化，并使能TIM3 PWM输出 */
+	TIM3_PWM_Init();
+
+  while (1)
+  {}
+}
+
+
+/******************* (C) COPYRIGHT 2011 野火嵌入式开发工作室 *****END OF FILE****/
+
