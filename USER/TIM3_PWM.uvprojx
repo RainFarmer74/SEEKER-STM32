@@ -441,6 +441,11 @@
               <FileType>1</FileType>
               <FilePath>.\timer.c</FilePath>
             </File>
+            <File>
+              <FileName>watchdog.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\watchdog.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -480,6 +485,11 @@
               <FileName>stm32f10x_exti.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\FWlib\src\stm32f10x_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_iwdg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWlib\src\stm32f10x_iwdg.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -522,9 +532,9 @@
               <FilePath>..\SYSTEM\seek\seek.c</FilePath>
             </File>
             <File>
-              <FileName>usart3.c</FileName>
+              <FileName>usart2.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\SYSTEM\usart\usart3.c</FilePath>
+              <FilePath>..\SYSTEM\usart\usart2.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -23,3 +23,5 @@
 ..\output\main.o: E:\ARM\ARMCC\Bin\..\include\stdio.h
 ..\output\main.o: ..\SYSTEM\usart\usart2.h
 ..\output\main.o: ..\SYSTEM\seek\seek.h
+..\output\main.o: watchdog.h
+..\output\main.o: ..\FWlib\inc\stm32f10x_iwdg.h

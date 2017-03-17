@@ -1,1 +1,1 @@
-# The repository for the embeded system using stm32103
+# SEEKER-STM32
